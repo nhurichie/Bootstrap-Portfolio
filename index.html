@@ -4,35 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="contact.html">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>WireFrame - Columns/Rows</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Arvo|Indie+Flower|News+Cycle|Ubuntu+Condensed" rel="stylesheet">
+    <title>Nhu Richie</title>
 </head>
 
 <style>
 
-nav {
-    float: left;
 
+.nav {
+    float: right;
+    padding: 10px;  
+    margin: 10px;
+    margin-right: 160px;
+    text-decoration: none;  
 }
 
-h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.nav-link {
+    color: lightcoral;
+    
+}
+
+h1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 4em;
-    color:  grey;
- 
+    color: lightcoral;
+    padding: 10px;
 
 }
 
 p {
     font-size: .9em;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'News Cycle', sans-serif;
     color: grey;  
     text-align: justify;
+    font-stretch:
 }
 
 .copyright {
     text-align: center;
-    text-align: bottom;
+    color: lightcoral;
 }
 
 .row {
@@ -47,11 +60,38 @@ img {
     
 }
 
+.headshot {
+    align-items: center;
 
-p {
+}
+
+.col-md-8 {
     float: left;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: gray;
+    text-align: center;
+}
+
+a, .ylwflw {
+    text-decoration: none;
+    text-decoration-skip-ink: none;
+    color: lightcoral;
+}
+
+.media-icons {
+    padding: 20px;
+    margin: auto;
+    color: lightcoral;
+}
+
+i, ul {
+    color: lightcoral;
+}
 
 </style>
 
@@ -59,13 +99,13 @@ p {
 <body>
         <ul class="nav">
                 <li class="nav-item">
-                  <a class="nav-link about" href="/index.html">About</a>
+                  <a class="nav-link about" href="index.html">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link portfolio" href="/portfolio.html">Portfolio</a>
+                  <a class="nav-link portfolio" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link contact" href="/contact.html">Contact</a>
+                  <a class="nav-link contact" href="contact.html">Contact</a>
                 </li>
               </ul>
 
@@ -76,37 +116,68 @@ p {
         <!-- Our columns function in rows. -->
         <div class="row">
             <div class ="col-md-12">
-                <h2> Nhu Richie </h2>
+                <h1> Nhu Richie </h1>
             </div>
         </div>
 
         <div class="row 2">
             <div class="col-md-4">
-                <img src="../Basic-Portfolio/assets/images/nhuhead.JPG" width="325" height="325">
+                <img class="headshot" src="../Basic-Portfolio/assets/images/nhuhead.JPG" width="325" height="325">
             </div>
 
             <div class="col-md-8">
-                 <p>my name is nhu richie.  i am a vietnamese adoptee from minneapolis, minnesota.  i am inquisitive to a fault, have a persistent desire to learn, and am genuinely curious for why things are they way they are.  i would like to think i am a hard worker but i do try not to take myself too seriously. i am also quite short and a terrible basketball player.  what a useless stump. what i lack in dribbling and free-throw skills though, i more than make up for my bodacious smile and personality.  
+                 <p>my name is nhu hoa nguyen-richie.  
+                 </p>
+            
+                <p>
+                i am a vietnamese adoptee from minneapolis, minnesota.  i am inquisitive to a fault, have a persistent desire to learn, and am genuinely curious for why things are they way they are.  i would like to think i am a hard worker but i do try not to take myself too seriously. i am also quite short and a terrible basketball player.  what a useless stump. what i lack in dribbling and free-throw skills though, i more than make up for my bodacious smile and personality, and my terrbile collection of dad jokes.
                  </p>
                  <p>
-                i'd like to think that i am a lover of love, a storyteller, and a random fact monger. when i'm not just lounging around on a sunday morning eating pancakes, i like to explore the spirit of fun by tackling the country be it on bike or foot; adventuring outdoors; attemting to climb rocks; eating a plain raised glazed doughnut from bogart's doughtnuts (hands down the best in the twin cities!); and getting my face lost in a stack of books.  besides relishing in the things i enjoy day-by-day, there are things i am passionate about that are outside of me.  one of them is pushing the less social media, more social justice movement.                
+                i'd like to think that i am a lover of love, a storyteller, and a random fact monger. but on a serious note, i value integrety and character. when i'm not lounging around on a sunday morning eating pancakes, i like to explore the spirit of fun in the greater outdoors by tackling the country by foot or on my all-city mancho man cyclocross bike; attemting to climb rocks; moonbeaming under the night sky; eating a plain raised glazed doughnut from bogart's doughtnuts-- best doughnut shop in the twin-cities; and getting my face lost in a stack of books.  besides relishing in the things i enjoy day-by-day, there are things outside of myself that i am passionate about. join me on my mission to move people from disconnection toward connection away from our daily screens: 
+                <br><br>
+                    <ul style="list-style:none;">
+                        <li><strong>less</strong> social media, more <strong>social justice</strong></li>
+
+                    </ul>
                 </p>
+                 <p>
+                if you'd like more information, you can check out my blog <a class ="ylwflwr" href ="#">ylwflwrperil</a>.
+                </p>
+                <br>
+                
+            
+
+
             </div>
 
             
-            </div>
+            
         </div>
-        
-
-        <div class="row 4">
-            <div class="col-md-12">
-                <p class="copyright">copyright nhu richie
-                </p>
-            </div>
-                
-        </div>
+    
         
     </div>
 
+   
+    <footer>
+        <div class="media-icons">
+
+                <a href="https://linkedin.com/in/nhurichards">
+                   <img src="iconfinder_Social-media-expand_LinkedIn_LinkedIn_4362947.png" width="20" height="20" >
+                </a>
+                <a href="https://instagram.com/nhurichie">
+                    <img src="iconfinder_Social-media-expand_Instagram_4362948.png" width="20" height="20">
+                </a>
+                <a href="https://www.facebook.com/nhurichie">
+                    <img src="iconfinder_Social-media-expand_Facebook_4362950.png" width="20" height="20">
+                </a>   
+        </div>
+            
+            <p class="copyright"> &copy; copyright ylwflwrperilmvmnt
+                </p>
+    </footer>
+
+    
+
 </body>
 </html>
+        
