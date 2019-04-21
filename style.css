@@ -1,0 +1,175 @@
+/* INDEX MAIN HTML 
+------------------
+*/
+
+.nav {
+    float: right;
+    padding: 10px;  
+    margin: 10px;
+    margin-right: 160px;
+    text-decoration: none;  
+
+}
+
+.nav-link {
+    color: lightcoral;
+
+}
+
+h1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 4em;
+    color: lightcoral;
+    padding: 10px;
+
+}
+
+p {
+    font-size: .9em;
+    font-family: 'News Cycle', sans-serif;
+    color: grey;  
+    text-align: justify;
+
+}
+
+.row {
+    margin: auto;
+    padding: 10px;
+
+}
+
+.headshot {
+    align-items: center;
+
+}
+
+.col-md-8 {
+    float: left;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: gray;
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+    color: lightcoral;
+
+}
+
+a, .ylwflwr {
+    text-decoration: none;
+    color: lightcoral;
+}
+
+.media-icons {
+    padding: 20px;
+    margin: auto;
+
+}
+
+li {
+    color: lightcoral;
+
+}
+
+/* PORTFOLIO HTML
+-----------------
+*/
+
+.port-fotos {
+    width: 250px;
+    height: 200px;
+
+}
+
+.col-md-3 {
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+/* CONTACT HTML
+---------------
+ */
+
+ h4 {
+    font-family: 'News Cycle', sans-serif;
+    color: lightcoral;
+    padding: 5px;
+
+}
+
+.leavemess {
+    text-align: center;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'News Cycle', sans-serif;
+
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid lightcoral;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    resize: vertical;
+    font-family: 'News Cycle', sans-serif;
+  }
+  
+  input[type=submit] {
+    font-family: 'News Cycle', sans-serif;
+    background-color:lightcoral;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color: lightcoral;
+    font-family: 'News Cycle', sans-serif;
+
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    font-family: 'News Cycle', sans-serif;
+    border-radius: 5px;
+    padding: 10px;
+
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: center;
+    width: 100%;
+    margin-top: 6px;
+    padding: 20px;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+  }
+  
+ 
+  
+  
