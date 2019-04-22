@@ -16,6 +16,7 @@
 
 }
 
+
 h1 {
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 4em;
@@ -111,15 +112,11 @@ li {
 
 }
 
+  /* CONTACT STYLE INPUT 
+  ----------------------
+  */
 
-* {
-    box-sizing: border-box;
-    font-family: 'News Cycle', sans-serif;
-
-  }
-  
-  /* Style inputs */
-  input[type=text], select, textarea {
+input[type=text], select, textarea {
     width: 100%;
     padding: 4px;
     border: 1px solid lightcoral;
@@ -127,49 +124,85 @@ li {
     margin-bottom: 6px;
     resize: vertical;
     font-family: 'News Cycle', sans-serif;
-  }
-  
-  input[type=submit] {
+
+}
+
+input[type=submit] {
     font-family: 'News Cycle', sans-serif;
     background-color:lightcoral;
     color: white;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
-    
-  }
-  
-  input[type=submit]:hover {
+
+}
+
+input[type=submit]:hover {
     background-color: lightcoral;
     font-family: 'News Cycle', sans-serif;
 
-  }
-  
-  /* Style the container/contact section */
-  .container {
+}
+
+/* CONTAINER/CONTACT SECTION 
+----------------------------
+*/
+
+.container {
     font-family: 'News Cycle', sans-serif;
     border-radius: 5px;
     padding: 10px;
 
-  }
-  
-  /* Create two columns that float next to eachother */
-  .column {
-    float: center;
+}
+
+/* SINGLE COLUMN FLOAT
+----------------------
+*/
+
+.column {
     width: 100%;
     margin-top: 6px;
     padding: 20px;
 
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+
+/* CLEAR FLOATS AFTER COLUMNS
+-----------------------------
+*/
+
+.row:after {
     content: "";
     display: table;
     clear: both;
 
-  }
+}
   
- 
+/* MEDIA QUERY BOXES
+--------------------
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'News Cycle', sans-serif;
+
+}
+
+/*
+  The width of the wrapper will be 1099px
+  at browser widths above 980px
+*/
   
-  
+/* The wrapper's width will be 600px */
+
+@media screen and (max-width: 960px) {
+
+}
+
+.wrapper {
+    width: 980px;
+    padding: 10px;
+   
+}
+
+.row, .row 2, .nav {
+    margin: auto;
+}
