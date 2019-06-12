@@ -3,79 +3,70 @@
 */
 
 .nav {
-    float: right;
-    padding: 10px;  
-    margin: 10px;
-    margin-right: 160px;
-    text-decoration: none;  
-
+  float: right;
+  padding: 10px;  
+  margin: 10px;
+  margin-right: 160px;
+  text-decoration: none;  
 }
 
 .nav-link {
-    color: lightcoral;
-
+  color: lightcoral;
 }
 
 
 h1 {
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 4em;
-    color: lightcoral;
-    padding: 10px;
-
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 4em;
+  color: lightcoral;
+  padding: 10px;
 }
 
 p {
-    font-size: .9em;
-    font-family: 'News Cycle', sans-serif;
-    color: grey;  
-    text-align: justify;
-
+  font-size: .9em;
+  font-family: 'News Cycle', sans-serif;
+  color: grey;  
+  text-align: justify;
 }
 
 .row {
-    margin: auto;
-    padding: 10px;
-
+  margin: auto;
+  padding: 10px;
 }
 
 .headshot {
-    align-items: center;
-
+  align-items: center;
 }
 
 .col-md-8 {
-    float: left;
+  float: left;
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    color: gray;
-    text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: gray;
+  text-align: center;
 }
 
 .copyright {
-    text-align: center;
-    color: lightcoral;
-
+  text-align: center;
+  color: lightcoral;
 }
 
 a, .ylwflwr {
-    text-decoration: none;
-    color: lightcoral;
+  text-decoration: none;
+  color: lightcoral;
 }
 
 .media-icons {
-    padding: 20px;
-    margin: auto;
-
+  padding: 20px;
+  margin: auto;
 }
 
 li {
-    color: lightcoral;
-
+  color: lightcoral;
 }
 
 /* PORTFOLIO HTML
@@ -84,7 +75,7 @@ li {
 
 .port-fotos {
     width: 250px;
-    height: 200px;
+    height: 180px;
 
 }
 
@@ -96,73 +87,68 @@ li {
 
 }
 
+.card-text {
+  text-align: center;
+}
+
 /* CONTACT HTML
 ---------------
- */
+*/
 
  h4 {
-    font-family: 'News Cycle', sans-serif;
-    color: lightcoral;
-    padding: 5px;
-
+  font-family: 'News Cycle', sans-serif;
+  color: lightcoral;
+  padding: 5px;
 }
 
 .leavemess {
-    text-align: center;
-
+  text-align: center;
 }
 
-  /* CONTACT STYLE INPUT 
-  ----------------------
-  */
+/* CONTACT STYLE INPUT 
+----------------------
+*/
 
 input[type=text], select, textarea {
-    width: 100%;
-    padding: 4px;
-    border: 1px solid lightcoral;
-    margin-top: 4px;
-    margin-bottom: 6px;
-    resize: vertical;
-    font-family: 'News Cycle', sans-serif;
-
+  width: 100%;
+  padding: 4px;
+  border: 1px solid lightcoral;
+  margin-top: 4px;
+  margin-bottom: 6px;
+  resize: vertical;
+  font-family: 'News Cycle', sans-serif;
 }
 
 input[type=submit] {
-    font-family: 'News Cycle', sans-serif;
-    background-color:lightcoral;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-
+  font-family: 'News Cycle', sans-serif;
+  background-color:lightcoral;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
 }
 
 input[type=submit]:hover {
-    background-color: lightcoral;
-    font-family: 'News Cycle', sans-serif;
-
+  background-color: lightcoral;
+  font-family: 'News Cycle', sans-serif;
 }
 
 /* CONTAINER/CONTACT SECTION 
 ----------------------------
 */
-
 .container {
-    font-family: 'News Cycle', sans-serif;
-    border-radius: 5px;
-    padding: 10px;
-
+  font-family: 'News Cycle', sans-serif;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 /* SINGLE COLUMN FLOAT
 ----------------------
 */
-
 .column {
-    width: 100%;
-    margin-top: 6px;
-    padding: 20px;
-
+  width: 100%;
+  margin-top: 6px;
+  padding: 20px;
 }
 
 /* CLEAR FLOATS AFTER COLUMNS
@@ -170,20 +156,17 @@ input[type=submit]:hover {
 */
 
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
-
+  content: "";
+  display: table;
+  clear: both;
 }
   
 /* MEDIA QUERY BOXES
 --------------------
 */
-
 * {
-    box-sizing: border-box;
-    font-family: 'News Cycle', sans-serif;
-
+  box-sizing: border-box;
+  font-family: 'News Cycle', sans-serif;
 }
 
 /*
@@ -194,15 +177,12 @@ input[type=submit]:hover {
 /* The wrapper's width will be 600px */
 
 @media screen and (max-width: 960px) {
-
 }
-
 .wrapper {
-    width: 980px;
-    padding: 10px;
-   
+  width: 980px;
+  padding: 10px; 
 }
 
-.row, .row 2, .nav {
-    margin: auto;
+.row, .row-2, .nav {
+  margin: auto;
 }
